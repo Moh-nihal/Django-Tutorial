@@ -7,3 +7,4 @@ step6:check whether b is greater than c if not goto step 8
 step7:print is b greater
 step8:print c is greater
 step9:stop
+hello
