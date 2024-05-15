@@ -1,0 +1,9 @@
+step1:start
+step2:declare variabe a,b,c
+step3:read a,b,c
+step4: first check whether a is greater than b and c if not goto step6
+step5:print a is greater
+step6:check whether b is greater than c if not goto step 8
+step7:print is b greater
+step8:print c is greater
+step9:stop
