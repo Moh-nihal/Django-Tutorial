@@ -1,0 +1,39 @@
+h4{
+    color:blue ;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: large;
+    background-color: bisque;
+
+
+
+}
+ul{
+    color:yellowgreen;
+    text-align: center;
+    text-decoration: line-through;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+float: right;}
+table{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBzVw9Pm0Jf22TsYH8dS0Pc64BhU6I7S_dcg&s');
+}
+div{
+    background-color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+    
+}
+span{
+    color:blue ;
+    font-size:xx-large ;
+    background-color: aliceblue;
+}
+h1{
+    text-align: center;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    
+}
