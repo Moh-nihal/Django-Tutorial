@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class services:
-    id: int
-    name: str
-    description: str
+class services(models.Model):
+    name =models.CharField(max_length=100)
+    description=models.CharField(max_length=500)
+    
