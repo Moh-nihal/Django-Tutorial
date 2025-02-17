@@ -76,8 +76,13 @@
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
+      {% if user.is_authenticated %}
 
-      <a class="btn-getstarted" href="#about">Get Started</a>
+      <a class="btn-getstarted" href="logout">Logout</a>
+      {% else %}
+      <a class="btn-getstarted" href='login'>Login or SignUp</a>
+      {% endif%}
+
 
     </div>
   </header>
@@ -90,7 +95,11 @@
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            {% if user.is_authenticated %}
+            <h1>Welcome, {{user.username}}</h1>
+            {% else%}
             <h1>Bettter Digital Experience With Techie</h1>
+            {% endif %}
             <p>We are team of talented designers making websites with Bootstrap</p>
             <div class="d-flex">
               <a href="#about" class="btn-get-started">Get Started</a>
